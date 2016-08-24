@@ -14,6 +14,25 @@ body {
   background: #fff;
   background-color: #fff; }
 
+div.landbox {
+    position:absolute;
+    left: 0px;
+    border-radius: 10px;
+    border-width: 2px;
+    border-style: solid;
+    border-color: black;
+    background-color: #F2F2F2;
+}
+div.nonlandbox {
+    position:absolute;
+    left: 530px;
+    border-radius: 10px;
+    border-width: 2px;
+    border-style: solid;
+    border-color: black;
+    background-color: #F2F2F2;
+}
+
 .reveal {
   font-family: "Source Sans Pro", Helvetica, sans-serif;
   font-size: 38px;
@@ -56,11 +75,10 @@ body {
   font-size: 1.6em; }
 
 .reveal h3 {
-  font-size: 1.3em; }
+  font-size: 1.3em;}
 
 .reveal h4 {
-  font-size: 1em;
-  color: #0066ff;}
+  font-size: 1em; }
 
 .reveal h1 {
   text-shadow: none; }
@@ -201,6 +219,7 @@ body {
 
 .reveal small * {
   vertical-align: top; }
+
 
 /*********************************************
  * LINKS
