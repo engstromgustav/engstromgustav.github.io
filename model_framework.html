@@ -1,0 +1,206 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset="utf-8">
+            
+        <title>Land-use change</title>
+        <meta name="description" content="Land-use change for economics researchers">
+        <meta name="author" content="Gustav Engström">
+        <meta name="apple-mobile-web-app-capable" content="yes">
+        <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+            
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui">
+		<link rel="stylesheet" href="css/reveal.css">
+
+		<!-- Theme used for syntax highlighting of code -->
+		<link rel="stylesheet" href="css/theme/whiteGE.css">
+            
+        <!-- Code syntax highlighting -->
+        <!-- Disable >
+
+        <!-->
+        
+        <!-- Printing and PDF exports -->
+        <script>
+            var link = document.createElement( 'link' );
+            link.rel = 'stylesheet';
+            link.type = 'text/css';
+            link.href = window.location.search.match( /print-pdf/gi ) ? 'css/print/pdf.css' : 'css/print/paper.css';
+            document.getElementsByTagName( 'head' )[0].appendChild( link );
+            </script>
+        
+        <!--Add support for earlier versions of Internet Explorer -->
+        <!--[if lt IE 9]>
+        <script src="lib/js/html5shiv.js"></script>
+        <![endif]-->
+
+		<!-- Printing and PDF exports -->
+		<script>
+			var link = document.createElement( 'link' );
+			link.rel = 'stylesheet';
+			link.type = 'text/css';
+			link.href = window.location.search.match( /print-pdf/gi ) ? 'css/print/pdf.css' : 'css/print/paper.css';
+			document.getElementsByTagName( 'head' )[0].appendChild( link );
+		</script>
+	</head>
+	<body>
+		<div class="reveal">
+			<div class="slides">
+
+            <!-- Slide contents start here -->
+
+            <!-- My own slide templates -->
+            <section id="title" data-transition="fade" data-background="images/landuse.jpg">
+                <h2 style="color:white;">
+                    Land-use change
+                </h2>
+                <p style="font-size: 0.7em; color:white;">Gustav Engström</p>
+                <p style="font-size: 0.7em; color:white;">PB-workshop, 2016</p>
+            </section>
+            <section id="title" data-transition="fade">
+                <h2 style="color:black;">
+                    What is land-use change?
+                </h2>
+                <img src="images/foley2005.jpg" style="border: none; background: none; box-shadow:none; width:600px;">
+                <p style="text-align: left;"><small>Fig. 1. Land-use transitions. Transitions in land-use activities that may be experienced
+                within a given region over time. As with demographic and economic transitions, societies
+                appear also to follow a sequence of different land-use regimes: from presettlement natural
+                vegetation to frontier clearing, then to subsistence agriculture and small-scale farms,
+                and finally to intensive agriculture, urban areas, and protected recreational lands (Foley etal 2005). </small></p>
+            </section>
+            <section>
+                    <section id="problem" data-transition="fade">
+                    <h3>
+                        What is the problem?
+                    </h3>
+                    <ol class="fragment" data-fragment-index="1">
+                        <li>
+                            Changes in greenhouse gas emissions from the land (especially CO2) (effects only at global scale)
+                        </li>
+                        <li>
+                            Land-use change often concerns the conversion of forests to croplands (decreases forest ecosystems and services provided).
+                        </li>
+                        <li>
+                            Changes in energy and water balance at land surface (effects at different scales)  </li>
+                    </ol>
+                    </section>
+                    <section id="problem" data-transition="fade-in fade-out">
+                        <h4>
+                            Land-use and climate change $4^x= 10$
+                        </h4>
+                        <img src="images/global-carbon-budget-2014.gif" style="border: none; background: none; box-shadow:none; width:450px;">
+                        <img src="images/SourcesandSinks.gif" style="border: none; background: none; box-shadow:none; width:420px;">
+                    </section>
+            </section>
+
+            <!-- My own slide templates -->
+            <section id="" data-transition="slide-in fade-out">
+                <h3>
+                    Typology of land use and land-use change?
+                </h3>
+                <h4 style="color:#0052cc;">
+                    Two dominant categories
+                </h4>
+                <ul class="fragment" data-fragment-index="1">
+                    <li>
+                        <b>Land-use change</b> - conversion of one type of ecosystem to another (e.g. conversion of forest to cropland).
+                    </li>
+                    <li>
+                        <b>Land use</b> - management with no change in land cover  (e.g. harvest of wood).
+                    </li>
+                </ul>
+            </section>
+            <!-- My own slide templates -->
+            <section id="descrip1" data-transition="fade-in fade-out">
+                <h3 style="text-align: left;">
+                    Land-use change
+                </h3>
+                <ul class="fragment" data-fragment-index="1">
+                    <li>
+                        <b>Croplands</b> - conversion of lands to croplands has been responsible for the largest emissions of carbon from land-use change.
+                    </li>
+                    <li>
+                        <b>Pastures</b> - expansion and contraction of pastures or grazing lands.
+                    </li>
+                </ul>
+            </section>
+            <section id="model" data-transition="fade">
+
+<div style="position:absolute; top: -60px; left: 140px; width: 300px; height: 80px; text-align: left; font-size: 0.8em;">Land-intensive production</div>
+<div style="position:absolute; top: -60px; left: 660px; width: 300px; height: 80px; text-align: left; font-size: 0.8em;">Non land-intensive</div>
+
+
+<div class="eqbox" style="top: -20px; left: 0px; width: 500px; height: 80px;"><small><b>crops</b><br> $\max p_C H_C(L_C,\Phi, W) - p_L L_C - p_W W - p_{\Phi} \Phi $</small></div>
+<div class="eqbox" style="top: 60px;    left: 0px; width: 500px; height: 80px;"><small><b>pasture</b><br> $\max p_G H_G(L_G) - p_L L_G$</small></div>
+<div class="eqbox" style="top: 140px;  left: 0px; width: 500px; height: 80px;"><small><b>timber</b><br> $\max p_T H_T(L_T) - p_L L_T$</small></div>
+<div class="eqbox" style="top: 220px;  left: 0px; width: 500px; height: 80px;"><small><b>bio-energy</b><br> $\max p_B H_B(L_B) - p_L L_B$</small></div>
+<div class="eqbox" style="top: 300px;  left: 0px; width: 500px; height: 80px;"><small><b>market clearing land</b><br> $L = L_C + L_P + L_T + L_B$</small></div>
+
+<div class="eqbox" style="top: -20px; left: 530px; width: 450px;   height: 80px;"><small><b>fertilizers</b><br> $\max p_{\Phi} \Phi (N(X), P) - p_X X - p_P P $</small></div>
+<div class="eqbox" style="top: 60px;   left: 530px;  width: 450px;  height: 80px;"><small><b>fossil fuels</b><br> $\max \sum_{t=0}^{\infty} p_{X} X_t, \;\text{s.t.}  \; \sum_{t=0}^{\infty} X_t \leq X_0 $</small></div>
+<div class="eqbox" style="top: 140px;  left: 530px;  width: 450px;  height: 80px;"><small><b>phosphorous</b><br> $\max \sum_{t=0}^{\infty} p_{P} P_t, \; \text{s.t.} \; \sum_{t=0}^{\infty} P_t \leq P_0 $</small></div>
+<div class="eqbox" style="top: 220px;  left: 530px;  width: 450px;  height: 80px;"><small><b>water</b><br> $\max \sum_{t=0}^{\infty} p_{W} W_t, \; \text{s.t.} \; A_{t+1}  = H_A( A_t) - W_t $</small></div>
+<div class="eqbox" style="top: 300px;  left: 530px;   width: 450px; height: 80px;"><small><b>fisheries</b><br> $\max \sum_{t=0}^{\infty} p_{F} F_t, \; \text{s.t.} \; S_{t+1}  = H_S(S_t) - F_t $</small></div>
+<div class="eqbox" style="top: 380px;  left: 530px;   width: 450px; height: 80px;"><small><b>energy</b><br> $\max p_E H_E(X, B, R) - p_x X - p_B B -p_R R $</small>
+</div>
+
+<div style="position:absolute; top: -20px; left: 1010px; width: 210px; height: 350px; text-align: left; font-size: 0.8em; border-style:solid; border-width:2px;">Definitions<br><small>Bioenergy (B)<br>
+                Crops (C)<br> Fishery (harvest) (F)<br> Fishery (stock) (S)<br> Fossil-fuels (X)<br> Nitrogen (N)<br> Phosporous (P)<br> Timber (T) <br> Renewables (R)<br> Fertilizers ($\Phi$)<br>Water (flow) ($W$)<br> Water (reserve) ($A$)<br>
+  Production func. ($H_i, \Phi$)<br></small>
+                </div>
+            </section>
+
+            </div>
+            <!-- To end the reconfiguration of an HTML5 <section> element as a slide using CSS. -->
+            
+        </div>
+        <!-- To end the activation of the CSS framework of Reveal.js -->
+        
+        <!-- Java script commands should be placed at the bottom of an HTML file, to reduce the perceived loading time  -->
+        
+        <!-- Load head.js, providing a number of utility classses. http://headjs.com/ -->
+        <script src="lib/js/head.min.js"></script>
+        <!-- Load reveal.js -->
+        <script src="js/reveal.js"></script>
+
+        <!-- Import MathJax, to use TeX for mathematic expressions -->
+        <script src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+        <!-- Allow inline math expressions by using $ -->
+        <!-- http://tex.stackexchange.com/questions/27633/mathjax-inline-mode-not-rendering -->
+        <script type="text/x-mathjax-config">
+            MathJax.Hub.Config({
+                               tex2jax: {
+                               inlineMath: [ ['$','$'], ["\\(","\\)"] ],
+                               processEscapes: true
+                               }
+                               });
+        </script>
+
+    <script>
+    // Set the options for Reveal.js
+    // Full list of configuration options available at:
+    // https://github.com/hakimel/reveal.js#configuration
+    Reveal.initialize({
+                      controls: true, // Disable the navigation arrows on bottom right
+                      progress: true,
+                      history: true,
+                      center: true,
+                      rollingLinks: false, // Disable the default rolling links
+                      
+                      transition: 'slide', // Choose from: none/fade/slide/convex/concave/zoom
+                      width: '90%',
+                      height: '90%',
+                      // Optional reveal.js plugins
+                      dependencies: [
+                                     { src: 'lib/js/classList.js', condition: function() { return !document.body.classList; } },
+                                     { src: 'plugin/markdown/marked.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+                                     { src: 'plugin/markdown/markdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+                                     { src: 'plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } },
+                                     { src: 'plugin/zoom-js/zoom.js', async: true },
+                                     { src: 'plugin/notes/notes.js', async: true }
+                                     ]
+                      });
+                      
+    </script>
+	</body>
+</html>
