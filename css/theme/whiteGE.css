@@ -16,7 +16,7 @@ body {
 
 div.landbox {
     position:absolute;
-    left: -20px;
+    left: -40px;
     border-radius: 10px;
     border-width: 2px;
     border-style: solid;
@@ -25,7 +25,7 @@ div.landbox {
 }
 div.nonlandbox {
     position:absolute;
-    left: 500px;
+    left: 480px;
     border-radius: 10px;
     border-width: 2px;
     border-style: solid;
