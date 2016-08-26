@@ -1,0 +1,407 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset="utf-8">
+            
+        <title>Land-use change</title>
+        <meta name="description" content="Land-use change for economics researchers">
+        <meta name="author" content="Gustav Engström">
+        <meta name="apple-mobile-web-app-capable" content="yes">
+        <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+            
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui">
+		<link rel="stylesheet" href="css/reveal.css">
+
+		<!-- Theme used for syntax highlighting of code -->
+		<link rel="stylesheet" href="css/theme/whiteGE.css">
+            
+        <!-- Code syntax highlighting -->
+        <!-- Disable >
+
+        <!-->
+        
+        <!-- Printing and PDF exports -->
+        <script>
+            var link = document.createElement( 'link' );
+            link.rel = 'stylesheet';
+            link.type = 'text/css';
+            link.href = window.location.search.match( /print-pdf/gi ) ? 'css/print/pdf.css' : 'css/print/paper.css';
+            document.getElementsByTagName( 'head' )[0].appendChild( link );
+            </script>
+        
+        <!--Add support for earlier versions of Internet Explorer -->
+        <!--[if lt IE 9]>
+        <script src="lib/js/html5shiv.js"></script>
+        <![endif]-->
+
+		<!-- Printing and PDF exports -->
+		<script>
+			var link = document.createElement( 'link' );
+			link.rel = 'stylesheet';
+			link.type = 'text/css';
+			link.href = window.location.search.match( /print-pdf/gi ) ? 'css/print/pdf.css' : 'css/print/paper.css';
+			document.getElementsByTagName( 'head' )[0].appendChild( link );
+		</script>
+	</head>
+	<body>
+		<div class="reveal">
+			<div class="slides">
+
+            <!-- Slide contents start here -->
+
+            <!-- My own slide templates -->
+            <section id="title" data-transition="fade" data-background="images/landuse.jpg">
+                <h2 style="color:white;">
+                    Land-use change
+                </h2>
+                <p style="font-size: 0.7em; color:white;">Gustav Engström</p>
+                <p style="font-size: 0.7em; color:white;">PB-workshop, 2016</p>
+            </section>
+            <section id="title" data-transition="fade">
+                <h4 style="color:black;">
+                    What is land-use change?
+                </h4>
+                <img src="images/foley2005.jpg" style="border: none; background: none; box-shadow:none; width:550px;">
+                    <small style="text-align: left">Fig. 1. Land-use transitions. Transitions in land-use activities that may be experienced
+                        within a given region over time (Foley etal 2005).</small>
+                <!-- <small>Fig. 1. Land-use transitions. Transitions in land-use activities that may be experienced
+                within a given region over time. As with demographic and economic transitions, societies
+                appear also to follow a sequence of different land-use regimes: from presettlement natural
+                vegetation to frontier clearing, then to subsistence agriculture and small-scale farms,
+                and finally to intensive agriculture, urban areas, and protected recreational lands (Foley etal 2005). </small> -->
+            </section>
+            <section>
+                    <section id="problem" data-transition="fade">
+                    <h3>
+                        What is the problem?
+                    </h3>
+                    <ol style="width: 90%;">
+                        <li class="fragment" data-fragment-index="1">
+                            Leads to changes in greenhouse gas emissions from the land (especially CO2)
+                        </li>
+                        <li class="fragment" data-fragment-index="2">
+                            Destroys forest ecosystems and services provided e.g. through conversion of forests to croplands
+                        </li>
+                        <li class="fragment" data-fragment-index="3">
+                            Changes in energy and water balance at land surface => climate impact  </li>
+                    </ol>
+                    <img class="fragment" data-fragment-index="3" src="images/chapin.png" style="width: 400px; padding: 0px; margin-top: 50px; margin-bottom: 0px;">
+                    </section>
+                    <section id="problem" data-transition="fade-in fade-out">
+                        <h3>
+                            Land-use and climate change
+                        </h3>
+                        <img src="images/global-carbon-budget-2014.gif" style="border: none; background: none; box-shadow:none; width:450px;">
+                        <img src="images/SourcesandSinks.gif" style="border: none; background: none; box-shadow:none; width:420px;">
+                    </section>
+                    <section id="problem" data-transition="fade-in fade-out">
+                        <h3>
+                            Land-use change and carbon emissions
+                        </h3>
+                        <ul>
+                            <li> Conversion of land from natural vegetation to agriculture or pasturage releases carbon from vegetation and soils (Houghton et al., 1983)</li>
+                            <li>Deforested areas have a diminished capacity to act as a CO2 sink (Arora and Boer, 2010; Strassmann et al., 2008).</li>
+                            <li>Agriculture and pasturage emits CH4 and nitrous oxide (N2O), accelerates soil carbon loss (Lal, 2004, (Foley etal 2005)</li>
+                        </ul>
+                    </section>
+                    <section id="problem" data-transition="fade-in fade-out">
+                        <h3>
+                            Two-sided coin of land-use change
+                        </h3>
+                        <ul>
+                            <li> Tropical forests are a source of carbon to the
+                                atmosphere today because of deforestation today</li>
+                            <li>Temperate forests are a sink for atmospheric carbon
+                                today because of past deforestation (they are today
+                                taking up again what they released yesterday).</li>
+                        </ul>
+                    </section>
+                    <section id="problem" data-transition="fade-in fade-out">
+                        <h3>
+                            Sources of emissions from land-use change
+                        </h3>
+                        <img src="images/houghton2010.png" style="border: none; background: none; box-shadow:none; width:700px;">
+                    </section>
+                    <section id="problem" data-transition="fade-in fade-out">
+                        <!-- <h4>Caveat: avoided emissions from intensification... </h4> -->
+                        <small style="text-align: left; position:absolute; top: -10px; left: -50px; width: 250px;"> Caveat: avoided emissions from agricultural intensification...</small>
+                        <img src="images/burney_full.png" style="border: none; background: none; box-shadow:none; position:relative; width: 700px; top: -60px;">
+                    </section>
+
+            </section>
+
+
+
+            <section>
+                <section id="state" data-transition="slide-in fade-out">
+                    <h3>
+                        Current state
+                    </h3>
+                    <p style="text-align: left;">- About 85 percent of Earth’s ice-free lands is covered by vegetation. Of the total ice-free land area (13,300 Mha), ≈ 4,000 Mha is suitable for rain-fed agriculture.</p>
+                    <p style="text-align: left;">-  The global non-cultivated area that is suitable for cropping while being non-forested, non-protected, and scarcely populated is estimated at 445 Mha globally. </p>
+                    <p style="text-align: right;"><small style="text-align: left;">(Lambin and Meyfroidt, 2010) </small></p>
+                    
+                </section>
+                <section id="state" data-transition="slide-in fade-out">
+    
+                    <img src="images/landcovermap.jpg" style="border: none; background: none; box-shadow:none; position:relative; width: 600px;"><br>
+                    <img src="images/world-map-of-cropland-and-pastureland-sage0.png" style="border: none; background: none; box-shadow:none; position:relative; width: 600px;">
+                    <small style="text-align: left; position:absolute; top: 30px; left: 50px; width: 280px;">Altogether, agriculture occupies about 38% of Earth’s terrestrial surface—the largest use of land on the planet (Foley et al 2011).</small>
+                </section>
+            </section>
+
+            
+            <section>
+                <section id="trends" data-transition="slide-in fade-out">
+                    <h3 style="text-align: left;">
+                        Historical and recent trends...
+                    </h3>
+                </section>
+                <section id="trends1" data-transition="slide-in fade-out">
+                    <img src="images/change_in_cropland.png" style="border: none; background: none; box-shadow:none; width: 800px;">
+                </section>
+                <section id="trends2" data-transition="slide-in fade-out">
+                    <img src="images/ourworldindata_land-per-crop.png" style="border: none; background: none; box-shadow:none; width: 800px;">
+                </section>
+                <section id="trends3" data-transition="slide-in fade-out">
+                    <img src="images/agriculture_growth_usda.png" style="border: none; background: none; box-shadow:none; width: 800px;">
+                </section>
+            </section>
+            
+            <section>
+                <section id="greening" data-transition="slide-in fade-out">
+                    <h3 style="text-align: left;">
+                        Global greening...
+                    </h3>
+                </section>
+                <section id="greening" data-transition="slide-in fade-out">
+                    <img src="images/zhu.png" style="border: none; background: none; box-shadow:none; position:relative; top: -60px; width: 800px;">
+                </section>
+                <section id="greening" data-transition="slide-in fade-out">
+                    <h3 style="text-align: center;">
+                        Other indicators of an expanding biosphere...
+                    </h3>
+
+                    <table class="reveal">
+                        <tr>
+                            <td style="width: 45%; vertical-align: top;">
+                                <ul>
+                                    <li><b>Keeling effect</b> - seasonal CO2 concentration fluctuations increasing in particular in northern latitudes.</li>
+                                    <li><b>Airborne fraction</b> of CO2 emissions remains constant - <q>best indicator whether or not the global sinks of carbon (ocean and land) are continuing to increase in proportion to emissions (Houghton, 2010).</q></li>
+                                </ul>
+                            </td>
+                            <td style="vertical-align: top; position: relative;">
+                                <img class="fragment fade-out" data-fragment-index="1" src="https://3.bp.blogspot.com/-ZMkaxcW_j1k/T5JtFd088eI/AAAAAAAAAho/5TDkn9rISqA/s1600/Relative+Cycles+57_07.jpg">
+                                <img class="fragment fade-in" data-fragment-index="1" src="images/keeling.png" style="position: absolute; top: 0px; left: 0px; ">
+                            </td>
+                        </tr>
+                    </table>
+                </section>
+                
+                
+                <section id="greening" data-transition="slide-in fade-out">
+                    <h3 style="text-align: left;">
+                        Peak farmland...
+                    </h3>
+                </section>
+                <section id="greening" data-transition="slide-in fade-out">
+                    <h3 style="text-align: center;">
+                        A Surprising Global Trend
+                    </h3>
+                    <table class="reveal">
+                        <tr>
+                            <td style="width: 40%; vertical-align: top;">
+                                <ul>
+                                    <li>From 1998 to 2009 we seen a 4.4% increase in global calories produced per capita while total agricultural land area dropped by 0.8% </li>
+                                    <li>About 32% of the increase came from animal products (mostly meat and milk), with another 27% from vegetable oil and 26% from fruits and vegetables.</li>
+                                </ul>
+                            </td>
+                            <td style="vertical-align: top; position: relative;">
+                                <img src="images/globalland_ag.jpg" style="width: 500px;padding: 0px; margin-bottom: 0px;">
+                                <img src="images/globalfoodsupply.jpg" style="width: 500px;padding: 0px; margin-top: 0px;">
+                            </td>
+                        </tr>
+                    </table>
+                </section>
+                <section id="greening" data-transition="slide-in fade-out">
+                    <h3 style="text-align: center;">
+                        Important caveats...
+                    </h3>
+                    <ul>
+                        <li>We don’t know whether this intensification was done sustainably or not i.e. what has happened to soil health and water quality </li>
+                        <li>Agricultural land use decline in much of the world (e.g., New Zealand, Mongolia, and Poland) hides significant agricultural expansion elsewhere (like Vietnam, Indonesia, and Argentina)</li>
+                    </ul>
+                    <img  src="images/global-ag-map.jpg" style="position: center; width: 700px">
+                </section>
+            </section>
+            
+            <section>
+                <section id="change" data-transition="slide-in fade-out">
+                    <h3 style="text-align: left;">
+                        Projected change...
+                    </h3>
+                </section>
+                <section id="greening" data-transition="slide-in fade-out">
+                    <h3 style="text-align: center;">Demand for Agriculture and land</h3>
+
+                    <table class="reveal">
+                        <tr>
+                            <td style="width: 60%; vertical-align: top;">
+                                <img src="images/tillman.png" style="width: 800px;padding: 0px; border-width: 1px; margin-bottom: 0px;">
+                            </td>
+                            <td style="vertical-align: top; position: relative;">
+                                Lambin and Meyfroidt (2010)
+                                <img src="images/lambintable.png" style="width: 450px;padding: 0px;  margin-bottom: 0px;">
+                            </td>
+                        </tr>
+                    </table>
+                </section>
+            </section>
+            
+            
+            <section>
+                <section id="boundary" data-transition="slide-in fade-out">
+                    <h3 style="text-align: left;">
+                        Proposed Planetary boundary...
+                    </h3>
+                </section>
+                <section id="boundary" data-transition="slide-in fade-out">
+                    <h3 style="text-align: center;">Planetary boundary for land-system change</h3>
+                    <table class="reveal">
+                        <tr>
+                            <td style="width: 60%; vertical-align: top;">
+                                - 2009: no more than 15% of the global ice-free land surface should be converted to cropland = approximately 400 Mha further expansion. <br>
+                                - 2015: The control variable has been changed from the amount of cropland to the amount of forest cover remaining. The biome-level boundary for tropical and boreal forests have been set at 85%, and the boundary for temperate forests has been proposed at 50% of potential forest cover, reflecting their respective influences on the climate system.
+                                    </td>
+                            <td style="vertical-align: top; position: relative;">
+                                <img src="images/pbcircle.jpg" style="width: 500px; border-width: 1px;">
+                                    </td>
+                        </tr>
+                    </table>
+                </section>
+            </section>
+
+            <section>
+                <section id="policies" data-transition="slide-in fade-out">
+                    <h3 style="text-align: left;">
+                        Policies...
+                    </h3>
+                </section>
+                <section id="policies" data-transition="slide-in fade-out">
+                    <h3 style="text-align: center;">Policies often proposed...</h3>
+                    <p style="text-align: left;">
+                    Two strategies are commonly proposed to control deforestation (Lambin and Meyfroidt,
+                    2010):</p>
+                    <ul>
+                        <li><b>Land use zoning schemes</b>: allocates land to restricted uses to ensure that valuable natural ecosystems are not converted</li>
+                        <li><b>Agricultural intensification</b>: spares land for nature because higher yields decrease the area that needs to be put under agriculture to reach a given production level.</li>
+                    </ul>
+                    <p style="text-align: left;">...both are generally considered to be under the control of national policies.<br>
+                    </p>
+                    <div style="position: relative; top: 0px; left: 0px; width: 1280px; height:100px; text-align: left; border-style:solid; border-radius:7px; border-width:2px; padding: 2px; background-color: #F2F2F2;">Note: investment in agricultural research is rarely mentioned as a greenhouse gas mitigation strategy (Burney et al 2009).</div>
+                </section>
+            </section>
+            
+            <section>
+                <section id="Challenges" data-transition="slide-in fade-out">
+                    <h3 style="text-align: left;">
+                        Challenges...
+                    </h3>
+                </section>
+                <section id="Challenges" data-transition="slide-in fade-out">
+                    <h3 style="text-align: center;">Leakage</h3>
+                    <p style="text-align: left;">Land use zoning for nature conservation in a country may displace population and land use within that country or abroad, via migrations or by increasing imports of agricultural or wood products, thus shifting/increasing pressure on natural ecosystems elsewhere.
+                    </p>
+                </section>
+                <section id="Challenges" data-transition="slide-in fade-out">
+                    <h3 style="text-align: center;">Income and substitution effects</h3>
+                    <p style="text-align: left;">Increased production efficiency lowers costs and in a competitive economy price of the agricultural commodity will fall. The overall impact on land-use thus depends on how this price change affects demand. The relative strength of income and substitution elasticities are thus important in determining demand response.
+                    </p>
+                </section>
+                <section id="Challenges" data-transition="slide-in fade-out">
+                    <h3 style="text-align: center;">Income elasticities</h3>
+                    <p style="text-align: left;">USDA 2014 reports effects of a change in per capita income on global agricultural variables. For a 10-percent increase in global per capita income, consumption and production of major crops is projected to increase by approximately 3 percent. Crop yield increases by 3 percent in this scenario, and cropland area increases by less than 1 percent.
+                    </p>
+                </section>
+                <section id="Challenges" data-transition="slide-in fade-out">
+                    <h3 style="text-align: center;">Improved production efficiency and the demand for land</h3>
+                    <p style="text-align: left;">More efficient agriculture is likely to be more profitable and could lead to an expansion of the cultivated area. However, aggregate global scale data suggest that past agricultural intensification did spare land for nature.
+                    </p>
+                </section>
+                <section id="Challenges" data-transition="slide-in fade-out">
+                    <h3 style="text-align: center;">Trade effects</h3>
+                    <p style="text-align: left;">Agricultural intensification or land use zoning in one country may trigger compensating changes in trade flows and, thus, affect indirectly land use in other countries. However, trade also carries the potential to increase global land use efficiency by allowing for regional specialization in land use and productivity increases as a response to a global shortage of productive land.
+                    </p>
+                </section>
+                <section id="Challenges" data-transition="slide-in fade-out">
+                    <h3 style="text-align: center;">Demand elasticities</h3>
+                    <p style="text-align: left;">The demand for staple crops for human consumption is relatively inelastic, the global demands for biofuels, meat, and luxury goods such as coffee are elastic (Lambin and Meyfroidt, 2010).
+                    </p>
+                </section>
+                <section id="Challenges" data-transition="slide-in fade-out">
+                    <h3 style="text-align: center;">Indirect effects</h3>
+                    <p style="text-align: left;">When a bioenergy crop replaces a natural ecosystem, there is a direct land conversion. When it replaces a food crop in a field already under cultivation, or when crop production is diverted from the food market to the bioenergy market, the supply of the food crop decreases—e.g., for corn, sugarcane, potato, or wheat used for ethanol, or palm or rapeseed oil used for biodiesel. The market price for the replaced crop increases, thus causing more land to be allocated to that crop, which could negate climate benefits from biofuels (Lambin and Meyfroidt, 2010)
+                    </p>
+                </section>
+                <section id="Challenges" data-transition="slide-in fade-out">
+                    <h3 style="text-align: center;">REDD (Reduced Emissions from Deforestation and Degradation)</h3>
+                    <p style="text-align: left;">One key issue for the implementation of REDD is how to address leakage of emissions. Without full participation of all countries in a forest conservation scheme, emission reductions in one location could result in increased emissions elsewhere. However, carbon leakage is not only relevant in the context of regionalized forest protection efforts. Another risk associated with a global REDD scheme that so far has not been quantified in the literature is the shift of land-use pressures to non-forest ecosystems (non-forest leakage) (Popp etal 2014).
+
+                    </p>
+                </section>
+            </section>
+            </div>
+            <!-- To end the reconfiguration of an HTML5 <section> element as a slide using CSS. -->
+            
+        </div>
+        <!-- To end the activation of the CSS framework of Reveal.js -->
+        
+        <!-- Java script commands should be placed at the bottom of an HTML file, to reduce the perceived loading time  -->
+        
+        <!-- Load head.js, providing a number of utility classses. http://headjs.com/ -->
+        <script src="lib/js/head.min.js"></script>
+        <!-- Load reveal.js -->
+        <script src="js/reveal.js"></script>
+
+        <!-- Import MathJax, to use TeX for mathematic expressions -->
+        <script src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+        <!-- Allow inline math expressions by using $ -->
+        <!-- http://tex.stackexchange.com/questions/27633/mathjax-inline-mode-not-rendering -->
+        <script type="text/x-mathjax-config">
+            MathJax.Hub.Config({
+                               tex2jax: {
+                               inlineMath: [ ['$','$'], ["\\(","\\)"] ],
+                               processEscapes: true
+                               }
+                               });
+        </script>
+
+    <script>
+    // Set the options for Reveal.js
+    // Full list of configuration options available at:
+    // https://github.com/hakimel/reveal.js#configuration
+    Reveal.initialize({
+                      controls: true, // Disable the navigation arrows on bottom right
+                      progress: true,
+                      history: true,
+                      center: true,
+                      rollingLinks: false, // Disable the default rolling links
+                      
+                      transition: 'slide', // Choose from: none/fade/slide/convex/concave/zoom
+                      width: 1280,
+                      height: 800,
+                      
+                      // Optional reveal.js plugins
+                      dependencies: [
+                                     { src: 'lib/js/classList.js', condition: function() { return !document.body.classList; } },
+                                     { src: 'plugin/markdown/marked.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+                                     { src: 'plugin/markdown/markdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+                                     { src: 'plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } },
+                                     { src: 'plugin/zoom-js/zoom.js', async: true },
+                                     { src: 'plugin/notes/notes.js', async: true }
+                                     ]
+                      });
+                      
+    </script>
+	</body>
+</html>

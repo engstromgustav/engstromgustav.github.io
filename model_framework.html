@@ -57,7 +57,7 @@
 
 
 <div class="landbox" style="top: -20px; width: 500px; height: 60px;"><small><b>crops</b><br> $\max p_C H_C(L_C,\Phi, W) - p_L L_C - p_W W - p_{\Phi} \Phi $</small></div>
-<div class="landbox" style="top: 40px;  width: 500px; height: 60px;"><small><b>pasture</b><br> $\max p_G H_G(L_G) - p_L L_G$</small></div>
+<div class="landbox" style="top: 40px;  width: 500px; height: 60px;"><small><b>pasture (grazing)</b><br> $\max p_G H_G(L_G) - p_L L_G$</small></div>
 <div class="landbox" style="top: 100px;  width: 500px; height: 60px;"><small><b>timber</b><br> $\max p_T H_T(L_T) - p_L L_T$</small></div>
 <div class="landbox" style="top: 160px;  width: 500px; height: 60px;"><small><b>bio-energy</b><br> $\max p_B H_B(L_B) - p_L L_B$</small></div>
 <div class="landbox" style="top: 220px;  width: 500px; height: 60px;"><small><b>market clearing land</b><br> $L_{total} = L_C + L_P + L_T + L_B + L_{natural \;forests}$</small></div>
@@ -70,8 +70,12 @@
 <div class="nonlandbox" style="top: 280px;  width: 540px; height: 60px;"><small><b>energy</b><br> $\max p_E H_E(X_E, B, R) - p_x X_E - p_B B -p_R R $</small></div>
 <div class="nonlandbox" style="top: 340px;  width: 540px; height: 60px;"><small><b>market clearing fossil fuels</b><br>  X = $X_{\Phi}$ + $X_E$ </small></div>
 
-<div style="position:absolute; top: -20px; left: 1040px; width: 210px; height: 380px; text-align: left; font-size: 0.8em; border-style:solid; border-width:2px;">Definitions<br><small>Bioenergy (B)<br>
-    Crops (C)<br> Fishery (harvest) (F)<br> Fishery (stock) (S)<br> Fossil-fuels (X)<br> Fossil-fuel stock ($\mathbb{X}$)<br> Nitrogen (N)<br> Phosporous (P)<br> Timber (T) <br> Renewables (R)<br> Fertilizers ($\Phi$)<br>Water (flow) ($W$)<br> Water (reserve) ($A$)<br> Land ($L$)<br> Production func. ($H_i, \Phi$)<br></small>
+<div style="position:absolute; top: 300px; left: 140px; width: 300px; height: 80px; text-align: left; font-size: 0.8em;">Demand</div>
+<div class="landbox" style="top: 340px;  width: 500px; height: 80px;"><small>$\max U(C, G, T,  F, E)$, s.t.  <br>$p_C C + p_G G + p_T T + p_F F + p_E E \leq K$</small></div>
+
+
+<div style="position:absolute; top: -20px; left: 1040px; width: 210px; height: 400px; text-align: left; font-size: 0.8em; border-style:solid; border-width:2px;">Definitions<br><small>Bioenergy (B)<br>
+    Crops (C)<br> Pasture (G)<br> Fishery (harvest) (F)<br> Fishery (stock) (S)<br> Fossil-fuels (X)<br> Fossil-fuel stock ($\mathbb{X}$)<br> Nitrogen (N)<br> Phosporous (P)<br> Timber (T) <br> Renewables (R)<br> Fertilizers ($\Phi$)<br>Water (flow) ($W$)<br> Water (reserve) ($A$)<br> Land ($L$)<br> Production func. ($H_i, \Phi$)<br></small>
     </div>
 
 
